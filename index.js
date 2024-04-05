@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
       <h2>${studentName}</h2>
     <p>has almost completed</p>
     <h2>${courseName}</h2>
-    <p>With legendary perseverence and world-class bad-assery for never giving up/p>
+    <p>With legendary perseverence and world-class bad-assery for never giving up</p>
     <img src="/logo.png" alt="codespace-logo">
     <p>Personal Message:</p>
     <p>${personalMessage}</p>
@@ -50,4 +50,6 @@ document.addEventListener('DOMContentLoaded', function () {
   closeModal.addEventListener('click', function () {
     modal.style.display = 'none';
   });
+
+  closeModal.style.cursor = 'pointer';
 });
