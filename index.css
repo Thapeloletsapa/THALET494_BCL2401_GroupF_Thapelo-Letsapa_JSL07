@@ -113,3 +113,7 @@ button:hover {
   background-color: #5d5f5e;
 }
 
+#certificateContent img {
+  max-width: 60%;
+  height: auto;
+}
